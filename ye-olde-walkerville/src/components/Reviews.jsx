@@ -1,19 +1,19 @@
 import React from 'react'
-
+// import defaultIcon from '../assests/img/defaulf_profile_icon.png';
 
 const posts = [
     {
       id: 1,
-      title: 'Boost your conversion rate',
+      title: '"Wonderful hospitality – great food and friendly host and staff. A good place to stay."',
       href: '#',
-      description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      date: 'Mar 16, 2020',
+      // description:
+      //   'Wonderful hospitality – great food and friendly host and staff. A good place to stay.',
+      date: '2023',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Unknown', href: '#' },
       author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
+        name: 'Dan & Joyce, Chelsea',
+        role: 'Quebec',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -21,16 +21,16 @@ const posts = [
     },
     {
       id: 2,
-      title: 'Boost your conversion rate',
+      title: '"Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊"',
       href: '#',
-      description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      date: 'Mar 16, 2020',
+      // description:
+      //   'Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊',
+      date: '2023',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Unknown', href: '#' },
       author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
+        name: 'Talin Awrham',
+        role: ' - ',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -38,16 +38,16 @@ const posts = [
     },
     {
       id: 3,
-      title: 'Boost your conversion rate',
+      title: '"Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic."',
       href: '#',
-      description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      date: 'Mar 16, 2020',
+      // description:
+      //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
+      date: '2023',
       datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
+      category: { title: 'Unknown', href: '#' },
       author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
+        name: 'Mike & Cathy',
+        role: '-',
         href: '#',
         imageUrl:
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -85,7 +85,7 @@ const Reviews = () => {
               <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
             </div>
             <div className="relative mt-8 flex items-center gap-x-4">
-              <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
+              {/* <img src={post.author.imageUrl} alt="" className="h-10 w-10 rounded-full bg-gray-50" /> */}
               <div className="text-sm leading-6">
                 <p className="font-semibold text-gray-900">
                   <a href={post.author.href}>

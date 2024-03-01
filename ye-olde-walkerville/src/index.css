@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: auto;
+}
+
+h1, h2 {
+    font-family: "Alice", serif;
+    letter-spacing: 1px;
+}
+
+#home_hero {
+    background-image: url('C:\Users\TAtthasatsri\Desktop\Ye_Olde_Walkerville_Redesign\ye-olde-walkerville\src\assests\img\home_hero.webp');
+    /* Additional styling properties */
+    background-size: cover; /* Adjust based on your needs */
+    background-position: center; /* Adjust based on your needs */
+    /* Other styling properties as needed */
+}

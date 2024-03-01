@@ -12,7 +12,7 @@ const posts = [
       datetime: '2020-03-16',
       category: { title: 'Unknown', href: '#' },
       author: {
-        name: 'Dan & Joyce, Chelsea',
+        name: 'Dan & Joyce',
         role: 'Quebec',
         href: '#',
         imageUrl:
@@ -29,7 +29,7 @@ const posts = [
       datetime: '2020-03-16',
       category: { title: 'Unknown', href: '#' },
       author: {
-        name: 'Talin Awrham',
+        name: 'Talin A.',
         role: ' - ',
         href: '#',
         imageUrl:

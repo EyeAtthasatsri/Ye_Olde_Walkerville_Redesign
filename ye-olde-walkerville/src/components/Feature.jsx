@@ -1,4 +1,5 @@
 import React from 'react'
+import "../index.css";
 const stats = [
     { id: 1, name: 'Indulge in a nutrient-rich morning with our wholesome breakfast options.', value: 'Morning Delights' },
     { id: 2, name: 'Enjoy our warm hospitality and friendly service throughout your stay.', value: 'Feel Like home' },
